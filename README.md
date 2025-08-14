@@ -2,9 +2,9 @@
 
 A clean and simple note-taking application built with React Native and Expo. This project demonstrates core concepts like state management, component-based structure, and local storage persistence.
 
-![App Screenshot - Home](C:\udemy\simplenote\assets\download.jpg)
-![App Screenshot - Edit](C:\udemy\simplenote\assets\download(1).jpg)
-![App Screenshot - Modify](C:\udemy\simplenote\assets\download(2).jpg)
+![App Screenshot - Home](./assets/download.jpg)
+![App Screenshot - Edit](./assets/download(1).jpg)
+![App Screenshot - Modify](./assets/download(2).jpg)
 
 
 
