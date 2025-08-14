@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Simple Note App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and simple note-taking application built with React Native and Expo. This project demonstrates core concepts like state management, component-based structure, and local storage persistence.
 
-## Get started
+![App Screenshot - Home](C:\udemy\simplenote\assets\download.jpg)
+![App Screenshot - Edit](C:\udemy\simplenote\assets\download(1).jpg)
+![App Screenshot - Modify](C:\udemy\simplenote\assets\download(2).jpg)
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+## ## Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+* **React Native**
+* **Expo** (Managed Workflow)
+* **Zustand** (for simple state management)
+* **NativeWind** (for Tailwind CSS styling)
+* **Expo Router** (for file-based navigation)
+* **sonner-native** (for toast notifications)
 
-In the output, you'll find options to open the app in a
+## ## Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This project is designed to run with the **Expo Go** app, so no native build is required.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### ### Prerequisites
 
-## Get a fresh project
+* [Node.js](https://nodejs.org/) (LTS version) installed on your computer.
+* The **Expo Go** app installed on your iOS or Android device.
+    * [Download for iOS](https://apps.apple.com/us/app/expo-go/id982107779)
+    * [Download for Android](https://play.google.com/store/apps/details?id=host.exp.exponent)
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+## ## Running the Application
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1.  **Start the development server:**
+    ```bash
+    npx expo start
+    ```
+2.  **Open on your phone:**
+    * A new browser tab will open showing a QR code.
+    * Open the **Expo Go** app on your phone.
+    * Scan the QR code with your phone's camera (iOS) or from within the Expo Go app (Android).
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The application will now be running on your device!
